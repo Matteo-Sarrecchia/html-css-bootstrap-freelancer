@@ -10,7 +10,6 @@
 
 .container-fluid{
     border: 1px solid black;
-    min-height: 300px;
 }
 
 header, footer{
