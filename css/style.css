@@ -1,26 +1,72 @@
+header{
+    background-color: #2C3E50;
+}
 
+.navbar-brand, .nav-link{
+    color:white;
+}
 
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show{
+    color: orange;
+}
+
+/* corpo centrale */
+
+/* section jumbo */
+.backg-color{
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.jumbo-img{
+    width: 250px;
+    margin: auto;
+}
+
+.jumbo-img img{
+    width: 100%;
+}
+
+/* section portfolio */
+.portfolio img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* section contact me */
+.contact input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+.contact .btn{
+    background-color: #1ABC9C;
+}
 
 /* DEBUG */
 [class*="col"]{
-    background-color: orange;
+    /* background-color: orange; */
     border: 1px solid black;
 }
 
 
 .container-fluid{
     border: 1px solid black;
+    background-color: #2C3E50;
 }
 
-header, footer{
+footer{
     background-color: green;
     margin: 1px solid black;
     margin-bottom: 30px;
+    height: 100px;
 }
 
 section{
-    background-color: aqua;
     border: 1px solid black;
-    margin-bottom: 30px;
     min-height: 10px;
+    margin-bottom: 50px;
 }
